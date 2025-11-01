@@ -1,0 +1,47 @@
+[debug] [2025-11-01T00:46:26.922Z] ----------------------------------------------------------------------
+[debug] [2025-11-01T00:46:26.927Z] Command:       /nix/store/ws50yvm6vzlzf7jzz6n7xh4szddrack1-nodejs-20.19.1/bin/node /nix/store/f77kilzcw5hh2gidh22k6pj8cp7pxp7h-firebase-tools-14.22.0/lib/node_modules/firebase-tools/lib/bin/firebase.js init hosting
+[debug] [2025-11-01T00:46:26.928Z] CLI Version:   14.22.0
+[debug] [2025-11-01T00:46:26.928Z] Platform:      linux
+[debug] [2025-11-01T00:46:26.929Z] Node Version:  v20.19.1
+[debug] [2025-11-01T00:46:26.929Z] Time:          Sat Nov 01 2025 00:46:26 GMT+0000 (Coordinated Universal Time)
+[debug] [2025-11-01T00:46:26.929Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-11-01T00:46:26.938Z] No OAuth tokens found
+[debug] [2025-11-01T00:46:26.939Z] No OAuth tokens found
+[error] Failed to fetch Firebase Project from current Studio Workspace: Unable to refresh auth: not yet authenticated.
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/user/solacecapitalscom
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[debug] [2025-11-01T00:46:26.959Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-01T00:46:26.960Z] > authorizing via signed-in user (lilscope01@gmail.com)
+[debug] [2025-11-01T00:46:26.963Z] No OAuth tokens found
+[debug] [2025-11-01T00:46:26.964Z] No OAuth tokens found
+[debug] [2025-11-01T00:46:26.964Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-01T00:46:26.966Z] > authorizing via signed-in user (lilscope01@gmail.com)
+[debug] [2025-11-01T00:46:26.971Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/solacecapitals-e37c8 [none]
+[debug] [2025-11-01T00:46:27.267Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/solacecapitals-e37c8 200
+[debug] [2025-11-01T00:46:27.267Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/solacecapitals-e37c8 {"projectId":"solacecapitals-e37c8","projectNumber":"974993640045","displayName":"solacecapitals-e37c8","name":"projects/solacecapitals-e37c8","resources":{"hostingSite":"solacecapitals-e37c8"},"state":"ACTIVE","etag":"1_a85a4987-ff6e-4423-8297-8a40b838517d"}
+[info] i  Using project solacecapitals-e37c8 (solacecapitals-e37c8) . 
+[info] 
+=== Hosting Setup
+[debug] [2025-11-01T00:46:27.296Z] No OAuth tokens found
+[debug] [2025-11-01T00:46:27.297Z] No OAuth tokens found
+[debug] [2025-11-01T00:46:27.297Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-01T00:46:27.297Z] > authorizing via signed-in user (lilscope01@gmail.com)
+[debug] [2025-11-01T00:46:27.297Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/solacecapitals-e37c8 [none]
+[debug] [2025-11-01T00:46:27.507Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/solacecapitals-e37c8 200
+[debug] [2025-11-01T00:46:27.507Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/solacecapitals-e37c8 {"projectId":"solacecapitals-e37c8","projectNumber":"974993640045","displayName":"solacecapitals-e37c8","name":"projects/solacecapitals-e37c8","resources":{"hostingSite":"solacecapitals-e37c8"},"state":"ACTIVE","etag":"1_a85a4987-ff6e-4423-8297-8a40b838517d"}
